@@ -1,0 +1,20 @@
+yairov_cf-micro-api:
+  image: yairov/cf-micro-api:master
+  ports:
+    - 3000
+  links:
+    - mongo
+  environment:
+    MONGO_URL: mongo/cf-micro-api
+    PORT: 3000
+yairov_cf-micro-worker:
+  image: yairov/cf-micro-worker:master
+  ports:
+    - 3000
+  links:
+    - mongo
+  environment:
+    MONGO_URL: mongo/cf-micro-api
+    PORT: 3000
+mongo:
+  image: mongo
