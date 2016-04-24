@@ -1,4 +1,4 @@
-
+# Getting Started with Codefresh
 ### Use this guide to familiarize yourself with basic Codefresh functionality, and to get started quickly and easily.
 Codefresh is a workflow platform for development teams that streamlines the entirety of the Docker images lifecycle. Codefresh allows teams to realize the benefits of improved workflow with Docker, including easy collaboration, streamlined testing, and a simplified deployment process. Although system administrators and Devops have been quick to adopt Docker, developers face a significant learning curve when trying to realize the benefits in their own swim lanes. By stitching together the entire workflow of the Docker ecosystem in an easily-consumed web interface, CodeFresh allows all stakeholders to benefit from Docker. In this way, CodeFresh brings Docker to the masses.
 
